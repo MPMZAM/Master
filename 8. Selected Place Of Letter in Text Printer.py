@@ -1,0 +1,10 @@
+print("Selected Place Of Letter in Text Printer" )
+print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+print()
+text = input("Enter Text\n")
+print()
+num = int (input('Enter The Place Number\n'))-1
+print()
+print ('The Letter Is ' + text [num])
+print()
+print()

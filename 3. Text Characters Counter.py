@@ -1,0 +1,8 @@
+print('Text Characters Couter')
+print('~~~~~~~~~~~~~~~~~~~~~~')
+print()
+user_len = len(input('Enter The Text That You Want To Count Their Letters\n'))
+print()
+print('The Text Contains ' + str(user_len) + ' Letters')
+print()
+print()

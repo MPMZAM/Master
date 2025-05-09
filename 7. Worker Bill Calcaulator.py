@@ -1,0 +1,18 @@
+print('Worker Bill and Area Calcaulator')
+print('~~~~~~~~~~~~~~~~')
+print()
+str_Length = input("Enter The Length:\n")
+print()
+str_width = input("Enter The Width:\n")
+print()
+x = input("How Much Do You Pay For 1 Metre?\n")
+print()
+float_Length = float(str_Length)
+float_width = float(str_width)
+float_area = float_width*float_Length
+area = str(float_Length*float_width)
+bill = float(x)*float_area
+print("The Area is " + area)
+print("You Must Give The Worker " + str(bill) + "$")
+print()
+print()
